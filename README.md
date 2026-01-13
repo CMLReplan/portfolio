@@ -1,6 +1,6 @@
 # Portfolio Website
 
-Welcome to my portfolio website! This project showcases my work and skills in web development, particularly using React.
+Welcome to my portfolio website! This project showcases my work and skills in software and web development.
 
 ## Features
 - Responsive design
