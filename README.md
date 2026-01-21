@@ -51,8 +51,8 @@ Deployment: Vercel (recommended)
 
 Clone the repository:
 
-git clone https://github.com/YOUR_USERNAME/carl-mathew-portfolio.git
-cd carl-mathew-portfolio
+git clone https://github.com/CMLReplan/portfolio.git
+cd portfolio
 
 
 Install dependencies:
