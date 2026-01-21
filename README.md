@@ -1,36 +1,135 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+🚀 Carl Mathew L. Replan — Portfolio
 
-## Getting Started
+A modern, responsive developer portfolio built with Next.js and Tailwind CSS showcasing my experience, projects, and skills as a Software Engineer & ICT Professional.
 
-First, run the development server:
+🔗 Live Demo: (add Vercel link here once deployed)
+📦 Tech Stack: Next.js, React, Tailwind CSS
 
-```bash
+✨ Features
+
+⚡ Built with Next.js App Router
+
+🎨 Styled with Tailwind CSS
+
+📱 Fully responsive (mobile-first)
+
+🚀 Static optimized build (fast loading)
+
+🧩 Component-based architecture
+
+🧠 Clean, readable codebase
+
+🔗 Smooth scroll navigation
+
+📄 SEO-ready metadata
+
+🖥 Sections
+
+Hero / Introduction
+
+Work Experience Timeline
+
+Projects Showcase
+
+Skills Overview
+
+Contact Section
+
+🛠 Tech Stack
+
+Framework: Next.js
+
+UI: React
+
+Styling: Tailwind CSS
+
+Build: Static Generation
+
+Deployment: Vercel (recommended)
+
+📦 Getting Started (Local Development)
+
+Clone the repository:
+
+git clone https://github.com/YOUR_USERNAME/carl-mathew-portfolio.git
+cd carl-mathew-portfolio
+
+
+Install dependencies:
+
+npm install
+
+
+Run the dev server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Open:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+http://localhost:3000
 
-## Learn More
+🏗 Build for Production
+npm run build
+npm run start
 
-To learn more about Next.js, take a look at the following resources:
+📁 Project Structure
+src/
+  app/
+    layout.js
+    page.js
+    globals.css
+  components/
+    Navbar.js
+    Hero.js
+    Experience.js
+    Projects.js
+    Skills.js
+    Contact.js
+  lib/
+    constants.js
+public/
+  assets/
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+📄 Customization
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Update your content here:
 
-## Deploy on Vercel
+src/lib/constants.js
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This includes:
+
+Name
+
+Bio
+
+Projects
+
+Experience
+
+Skills
+
+Certificates
+
+🚀 Deployment (Vercel)
+
+Go to https://vercel.com
+
+Import this GitHub repository
+
+Click Deploy
+
+That’s it — Vercel handles everything automatically.
+
+👤 Author
+
+Carl Mathew L. Replan
+Software Engineer & ICT Professional
+
+📍 Laguna, Philippines
+📧 mattreplan@gmail.com
+
+📜 License
+
+This project is for personal portfolio use. Feel free to fork and adapt for your own portfolio.
