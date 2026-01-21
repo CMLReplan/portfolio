@@ -15,7 +15,7 @@ export default function Skills() {
             <div className="text-center mb-20">
             <h2 className="text-4xl font-black tracking-tighter sm:text-5xl uppercase">Technical Stack</h2>
             <p className="mt-4 text-indigo-200 font-light max-w-2xl mx-auto">
-                My foundation lies in Computer Engineering, evolved through years of PHP backend work and modern React frontend practices.
+                My foundation lies in Computer Engineering, with hands-on experience of PHP backend work and modern React frontend practices.
             </p>
             </div>
 
