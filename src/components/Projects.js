@@ -25,15 +25,17 @@ export default function Projects() {
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
                     <div className="flex gap-4">
-                        {project.github && (
+                        {project.github && project.github !== "#" && (
                         <a href={project.github} target="_blank" rel="noopener noreferrer" className="text-white hover:text-indigo-200 font-medium text-sm">GitHub</a>
                         )}
+                        {project.link && project.link !== "#" && (
                         <a href={project.link} target="_blank" rel="noopener noreferrer" className="text-white hover:text-indigo-200 font-medium text-sm">Live Demo</a>
+                        )}
                     </div>
                     </div>
                 </div>
                 <div className="p-6">
-                    <div className="flex flex-wrap gap-2 mb-4">
+                    <div className="flex flex-wrap gap-2 mb-4 min-h-[56px] content-start" >
                     {project.tags.map(tag => (
                         <span key={tag} className="px-2 py-1 text-[10px] font-bold uppercase tracking-wider text-indigo-600 bg-indigo-50 rounded-md">
                         {tag}

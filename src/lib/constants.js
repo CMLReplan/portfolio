@@ -29,7 +29,7 @@ export const PROJECTS = [
     tags: ["Symfony", "PHP", "REST API", "SQL", "Postman"],
     imageUrl:
       "/assets/placeholder-api.jpg",
-    github: "#",
+    github: "https://github.com/CMLReplan/auth-api.git",
   },
   {
     id: "3",
