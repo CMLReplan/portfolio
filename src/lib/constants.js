@@ -17,7 +17,7 @@ export const PROJECTS = [
       "A React-based table booking application featuring responsive design, form validation, deployed and hosted on Vercel as part of the Meta Professional Certificate.",
     tags: ["React", "JavaScript", "HTML5", "CSS", "Bootstrap", "Unit Testing"],
     imageUrl:
-      "assets/photo2.png",
+      "/assets/photo2.png",
     link: "https://my-app-phi-eight-47.vercel.app",
     github: "https://github.com/CMLReplan/my-app",
   },
@@ -26,10 +26,10 @@ export const PROJECTS = [
     title: "User Authentication API (Recreated)",
     description:
       "A Symfony authentication API recreated to demonstrate professional experience with API key and OTP-based authentication.",
-    tags: ["Symfony", "PHP", "REST API", "SQL"],
+    tags: ["Symfony", "PHP", "REST API", "SQL", "Postman"],
     imageUrl:
-      "assets/placeholder-api.jpg",
-    link: "#",
+      "/assets/placeholder-api.jpg",
+    github: "#",
   },
   {
     id: "3",
@@ -38,7 +38,7 @@ export const PROJECTS = [
       "Developed and implemented an institutional web section using HTML, CSS, Bootstrap, JavaScript, and Joomla. Continued maintenance and updates to ensure content relevance and technical functionality for the section and main website of the Institute.",
     tags: ["Joomla", "CMS", "HTML5", "CSS3", "Bootstrap", "JavaScript"],
     imageUrl:
-      "assets/photo3.png",
+      "/assets/photo3.png",
     link: "https://fprdi.dost.gov.ph/gad-corner",
   },
 ];

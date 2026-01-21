@@ -25,7 +25,7 @@ export default function Navbar() {
             <div className="flex justify-between items-center">
             <div className="flex-shrink-0">
                 <span className="text-xl font-black tracking-tighter text-[#1a237e]">
-                CML.REPLAN<span className="text-indigo-600">.</span>
+                CML. REPLAN<span className="text-indigo-600">.</span>
                 </span>
             </div>
 
@@ -40,7 +40,7 @@ export default function Navbar() {
                     {link.name}
                     </a>
                 ))}
-                <a href="https://drive.google.com/file/d/11JhOYnqKX3ZCKSDjS1PzXMLQqOnTFnY1/view?" className="text-[10px] font-black uppercase tracking-[0.2em] bg-[#1a237e] text-white px-5 py-2.5 hover:bg-indigo-600 transition-all">
+                <a href="/CMLReplan-Resume.pdf" target="_blank" rel="noopener noreferrer" className="text-[10px] font-black uppercase tracking-[0.2em] bg-[#1a237e] text-white px-5 py-2.5 hover:bg-indigo-600 transition-all">
                     RESUME
                 </a>
                 </div>

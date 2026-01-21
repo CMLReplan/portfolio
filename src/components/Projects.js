@@ -1,5 +1,5 @@
 
-import React from 'react';
+import Image from "next/image";
 import { PROJECTS } from '@/lib/constants';
 
 export default function Projects() {
@@ -17,17 +17,18 @@ export default function Projects() {
             {PROJECTS.map((project) => (
                 <div key={project.id} className="group bg-white border border-gray-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                 <div className="relative aspect-video overflow-hidden">
-                    <img
+                    <Image
                     src={project.imageUrl}
                     alt={project.title}
+                    fill
                     className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-500"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
                     <div className="flex gap-4">
                         {project.github && (
-                        <a href={project.github} className="text-white hover:text-indigo-200 font-medium text-sm">GitHub</a>
+                        <a href={project.github} target="_blank" rel="noopener noreferrer" className="text-white hover:text-indigo-200 font-medium text-sm">GitHub</a>
                         )}
-                        <a href={project.link} className="text-white hover:text-indigo-200 font-medium text-sm">Live Demo</a>
+                        <a href={project.link} target="_blank" rel="noopener noreferrer" className="text-white hover:text-indigo-200 font-medium text-sm">Live Demo</a>
                     </div>
                     </div>
                 </div>

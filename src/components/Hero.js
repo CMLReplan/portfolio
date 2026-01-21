@@ -1,5 +1,5 @@
 
-import React from 'react';
+import Image from "next/image";
 import { NAME, ROLE, BIO } from '@/lib/constants';
 
 export default function Hero() {
@@ -42,9 +42,12 @@ export default function Hero() {
                 <div className="absolute top-8 -left-8 w-full h-full border-4 border-[#1a237e] -z-10"></div>
                 <div className="absolute -bottom-8 -right-8 w-32 h-32 bg-indigo-100 -z-10 rounded-full blur-2xl"></div>
 
-                <img
-                    src="assets/photo1.jpg"
+                <Image
+                    src="/assets/photo1.jpg"
                     alt={NAME}
+                    fill
+                    priority
+                    sizes="(max-width: 768px) 288px, 400px"
                     className="w-full h-full object-cover shadow-2xl grayscale hover:grayscale-0 transition-all duration-700"
                 />
 
