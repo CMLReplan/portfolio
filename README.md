@@ -1,9 +1,8 @@
 🚀 Carl Mathew L. Replan — Portfolio
 
-A modern, responsive developer portfolio built with Next.js and Tailwind CSS showcasing my experience, projects, and skills as a Software Engineer & ICT Professional.
+A modern, responsive developer portfolio built with Next.js and Tailwind CSS, showcasing my experience, projects, and skills as a Software Engineer & ICT Professional.
 
-🔗 Live Demo: (add Vercel link here once deployed)
-📦 Tech Stack: Next.js, React, Tailwind CSS
+🔗 Live Site: https://portfolio-ruby-two-icrt7lpso8.vercel.app
 
 ✨ Features
 
@@ -13,15 +12,21 @@ A modern, responsive developer portfolio built with Next.js and Tailwind CSS sho
 
 📱 Fully responsive (mobile-first)
 
+🖼 Optimized images using next/image
+
 🚀 Static optimized build (fast loading)
 
-🧩 Component-based architecture
-
-🧠 Clean, readable codebase
+🧩 Clean component-based architecture
 
 🔗 Smooth scroll navigation
 
+📬 Working contact form powered by Formspree
+
+✅ Thank-you confirmation page after form submit
+
 📄 SEO-ready metadata
+
+🌍 Deployed on Vercel
 
 🖥 Sections
 
@@ -33,7 +38,7 @@ Projects Showcase
 
 Skills Overview
 
-Contact Section
+Contact Section (with real email sending)
 
 🛠 Tech Stack
 
@@ -43,16 +48,18 @@ UI: React
 
 Styling: Tailwind CSS
 
-Build: Static Generation
+Images: next/image
 
-Deployment: Vercel (recommended)
+Forms: Formspree
+
+Deployment: Vercel
 
 📦 Getting Started (Local Development)
 
 Clone the repository:
 
-git clone https://github.com/CMLReplan/portfolio.git
-cd portfolio
+git clone https://github.com/YOUR_USERNAME/carl-mathew-portfolio.git
+cd carl-mathew-portfolio
 
 
 Install dependencies:
@@ -79,6 +86,8 @@ src/
     layout.js
     page.js
     globals.css
+    thank-you/
+      page.js
   components/
     Navbar.js
     Hero.js
@@ -90,27 +99,42 @@ src/
     constants.js
 public/
   assets/
+    photo1.jpg
+    photo2.png
+    photo3.png
+    placeholder-api.jpg
+  resume.pdf
 
-📄 Customization
+📄 Content Configuration
 
-Update your content here:
+All portfolio content is centralized here:
 
 src/lib/constants.js
 
 
-This includes:
+You can edit:
 
 Name
 
 Bio
 
-Projects
-
 Experience
+
+Projects
 
 Skills
 
 Certificates
+
+📬 Contact Form
+
+The contact form is powered by Formspree and:
+
+Sends real emails
+
+Redirects to a /thank-you confirmation page after submit
+
+Requires no backend or server setup
 
 🚀 Deployment (Vercel)
 
@@ -120,7 +144,7 @@ Import this GitHub repository
 
 Click Deploy
 
-That’s it — Vercel handles everything automatically.
+Every git push automatically redeploys the site.
 
 👤 Author
 
@@ -129,7 +153,3 @@ Software Engineer & ICT Professional
 
 📍 Laguna, Philippines
 📧 mattreplan@gmail.com
-
-📜 License
-
-This project is for personal portfolio use. Feel free to fork and adapt for your own portfolio.
