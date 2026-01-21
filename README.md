@@ -1,6 +1,6 @@
 🚀 Carl Mathew L. Replan — Portfolio
 
-A modern, responsive developer portfolio built with Next.js and Tailwind CSS, showcasing my experience, projects, and skills as a Software Engineer & ICT Professional.
+A modern, responsive developer portfolio built with Next.js and Tailwind CSS, showcasing my experience, projects, and skills as a Software Developer & ICT Professional.
 
 🔗 Live Site: https://portfolio-ruby-two-icrt7lpso8.vercel.app
 
@@ -58,8 +58,8 @@ Deployment: Vercel
 
 Clone the repository:
 
-git clone https://github.com/YOUR_USERNAME/carl-mathew-portfolio.git
-cd carl-mathew-portfolio
+git clone https://github.com/CMLReplan/portfolio.git
+cd portfolio-next
 
 
 Install dependencies:
@@ -149,7 +149,7 @@ Every git push automatically redeploys the site.
 👤 Author
 
 Carl Mathew L. Replan
-Software Engineer & ICT Professional
+Software Developer & ICT Professional
 
 📍 Laguna, Philippines
 📧 mattreplan@gmail.com
