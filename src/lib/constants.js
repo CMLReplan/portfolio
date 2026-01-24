@@ -1,13 +1,12 @@
 export const NAME = "Carl Mathew L. Replan";
-export const ROLE = "Software Developer & ICT Professional";
+export const ROLE = "Software Developer & Web Developer";
 export const EMAIL = "mattreplan@gmail.com";
 export const PHONE = "09171391759";
 export const LOCATION = "Laguna, Philippines";
 
-export const BIO = `ICT professional with hands-on experience in backend development, web content management, and ICT support.
-Specialized in Symfony (PHP), Joomla, and API integration. I am a well-organized and detail-oriented individual with a strong problem-solving mindset.
-I work effectively with documentation, collaboration tools, and modern development workflows. I value clean, maintainable solutions.
-Eager to contribute to scalable, high-impact software initiatives in an Agile environment.`;
+export const BIO = `Computer Engineering graduate and Software Developer with hands-on experience in PHP backend development, CMS management, and technical support.
+Worked on real-world systems using Symfony and Joomla, and currently expanding my frontend skill set using React, Next.js, and Tailwind CSS.
+Enjoy building clean, practical, and user-focused applications, and eager to grow as a software developer in a collaborative and fast-paced environment.`;
 
 export const PROJECTS = [
   {
@@ -25,11 +24,12 @@ export const PROJECTS = [
     id: "2",
     title: "User Authentication API (Recreated)",
     description:
-      "A Symfony authentication API recreated to demonstrate professional experience with API key and OTP-based authentication.",
+      "A Symfony authentication API recreated from a real production system I built in 2019, demonstrating professional experience with API key and OTP-based authentication.",
     tags: ["Symfony", "PHP", "REST API", "SQL", "Postman"],
     imageUrl:
       "/assets/placeholder-api.jpg",
-    github: "https://github.com/CMLReplan/auth-api.git",
+    github: "https://github.com/CMLReplan/auth-api",
+    docs: "https://github.com/CMLReplan/auth-api#readme",
   },
   {
     id: "3",
@@ -80,20 +80,31 @@ export const EXPERIENCE = [
 ];
 
 export const SKILLS = [
+  // Backend
   { name: "Symfony", category: "Languages & Frameworks", level: 3 },
   { name: "PHP", category: "Languages & Frameworks", level: 4 },
-  { name: "React", category: "Languages & Frameworks", level: 3 },
-  { name: "JavaScript", category: "Languages & Frameworks", level: 4 },
-  { name: "HTML5/CSS3", category: "Languages & Frameworks", level: 4 },
-  { name: "Bootstrap", category: "Languages & Frameworks", level: 4 },
   { name: "Joomla", category: "Web & CMS", level: 4 },
+
+  // Frontend
+  { name: "React", category: "Languages & Frameworks", level: 3 }, // learning
+  { name: "Next.js", category: "Languages & Frameworks", level: 2 }, // learning
+  { name: "Tailwind CSS", category: "Languages & Frameworks", level: 2 }, // learning
+  { name: "JavaScript", category: "Languages & Frameworks", level: 4 },
+  { name: "HTML5/CSS3", category: "Languages & Frameworks", level: 3 },
+  { name: "Bootstrap", category: "Languages & Frameworks", level: 4 },
+
+  // Tools & Data
   { name: "REST APIs", category: "Tools & Data", level: 3 },
   { name: "Postman", category: "Tools & Data", level: 4 },
   { name: "SQL", category: "Tools & Data", level: 3 },
   { name: "Git/GitHub", category: "Tools & Data", level: 4 },
   { name: "Google Workspace", category: "Tools & Data", level: 4 },
+
+  // Soft Skills
   { name: "Agile/Scrum", category: "Soft Skills", level: 4 },
   { name: "Communication", category: "Soft Skills", level: 4 },
+  { name: "Problem Solving", category: "Soft Skills", level: 4 },
+  { name: "Time Management", category: "Soft Skills", level: 4 },
 ];
 
 export const CERTIFICATES = [
