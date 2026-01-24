@@ -31,6 +31,9 @@ export default function Projects() {
                         {project.link && project.link !== "#" && (
                         <a href={project.link} target="_blank" rel="noopener noreferrer" className="text-white hover:text-indigo-200 font-medium text-sm">Live Demo</a>
                         )}
+                        {project.docs && project.docs !== "#" && (
+                        <a href={project.docs} target="_blank" rel="noopener noreferrer" className="text-white hover:text-indigo-200 font-medium text-sm">API Demo</a>
+                        )}
                     </div>
                     </div>
                 </div>
