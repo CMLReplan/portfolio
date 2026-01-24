@@ -43,7 +43,7 @@ export default function Hero() {
                 <div className="absolute -bottom-8 -right-8 w-32 h-32 bg-indigo-100 -z-10 rounded-full blur-2xl"></div>
 
                 <Image
-                    src="/assets/photo1.jpg"
+                    src="/assets/photo.jpg"
                     alt={NAME}
                     fill
                     priority
