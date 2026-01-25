@@ -1,84 +1,72 @@
-🚀 Carl Mathew L. Replan — Portfolio
+# 🚀 Carl Mathew L. Replan — Portfolio
 
 A modern, responsive developer portfolio built with Next.js and Tailwind CSS, showcasing my experience, projects, and skills as a Software Developer & ICT Professional.
 
 🔗 Live Site: https://portfolio-ruby-two-icrt7lpso8.vercel.app
 
-✨ Features
+---
 
-⚡ Built with Next.js App Router
+## ✨ Features
 
-🎨 Styled with Tailwind CSS
+- ⚡ Built with Next.js App Router
+- 🎨 Styled with Tailwind CSS
+- 📱 Fully responsive (mobile-first)
+- 🖼 Optimized images using Next.js `next/image`
+- 🚀 Static optimized build (fast loading)
+- 🧩 Clean component-based architecture
+- 🔗 Smooth scroll navigation
+- 📬 Working contact form powered by Formspree
+- ✅ Redirects to a thank-you confirmation page after form submission
+- 📄 SEO metadata configured using Next.js App Router
+- 🌍 Deployed on Vercel
 
-📱 Fully responsive (mobile-first)
+---
 
-🖼 Optimized images using next/image
+## 🖥 Sections
 
-🚀 Static optimized build (fast loading)
+- Hero / Introduction
+- Work Experience Timeline
+- Projects Showcase
+- Skills Overview
+- Certifications
+- Contact Section (with real email sending)
 
-🧩 Clean component-based architecture
+---
 
-🔗 Smooth scroll navigation
+## 🛠 Tech Stack
 
-📬 Working contact form powered by Formspree
+- Framework: Next.js
+- UI: React
+- Styling: Tailwind CSS
+- Images: Next.js `next/image`
+- Forms: Formspree
+- Deployment: Vercel
 
-✅ Thank-you confirmation page after form submit
+---
 
-📄 SEO-ready metadata
-
-🌍 Deployed on Vercel
-
-🖥 Sections
-
-Hero / Introduction
-
-Work Experience Timeline
-
-Projects Showcase
-
-Skills Overview
-
-Contact Section (with real email sending)
-
-🛠 Tech Stack
-
-Framework: Next.js
-
-UI: React
-
-Styling: Tailwind CSS
-
-Images: next/image
-
-Forms: Formspree
-
-Deployment: Vercel
-
-📦 Getting Started (Local Development)
+## 📦 Getting Started (Local Development)
 
 Clone the repository:
 
+```bash
 git clone https://github.com/CMLReplan/portfolio.git
-cd portfolio-next
-
+cd portfolio
 
 Install dependencies:
 
 npm install
 
-
 Run the dev server:
 
 npm run dev
-
 
 Open:
 
 http://localhost:3000
 
 🏗 Build for Production
+
 npm run build
-npm run start
 
 📁 Project Structure
 src/
@@ -95,6 +83,7 @@ src/
     Projects.js
     Skills.js
     Contact.js
+    Footer.js
   lib/
     constants.js
 public/
@@ -103,6 +92,7 @@ public/
     photo2.png
     photo3.png
     placeholder-api.jpg
+    portfolio-preview.png
   resume.pdf
 
 📄 Content Configuration
@@ -110,7 +100,6 @@ public/
 All portfolio content is centralized here:
 
 src/lib/constants.js
-
 
 You can edit:
 
@@ -132,7 +121,7 @@ The contact form is powered by Formspree and:
 
 Sends real emails
 
-Redirects to a /thank-you confirmation page after submit
+Redirects to a /thank-you confirmation page after submission
 
 Requires no backend or server setup
 
@@ -149,7 +138,16 @@ Every git push automatically redeploys the site.
 👤 Author
 
 Carl Mathew L. Replan
-Software Developer & ICT Professional
-
+Software Developer & Web Developer
 📍 Laguna, Philippines
 📧 mattreplan@gmail.com
+
+
+---
+
+# ⚠️ IMPORTANT: Replace this line
+
+Find:
+
+```md
+git clone https://github.com/CMLReplan/portfolio.git
