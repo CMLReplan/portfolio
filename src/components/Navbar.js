@@ -40,7 +40,7 @@ export default function Navbar() {
                     {link.name}
                     </a>
                 ))}
-                <a href="/CMLReplan-Resume.pdf" target="_blank" rel="noopener noreferrer" className="text-[10px] font-black uppercase tracking-[0.2em] bg-[#1a237e] text-white px-5 py-2.5 hover:bg-indigo-600 transition-all">
+                <a href="/cmlreplan-resume.pdf" target="_blank" rel="noopener noreferrer" className="text-[10px] font-black uppercase tracking-[0.2em] bg-[#1a237e] text-white px-5 py-2.5 hover:bg-indigo-600 transition-all">
                     RESUME
                 </a>
                 </div>
