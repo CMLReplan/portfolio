@@ -117,7 +117,7 @@ export default function Contact() {
               <input
                 type="hidden"
                 name="_next"
-                value="https://portfolio-ruby-two-icrt7lpso8.vercel.app/thank-you"
+                value="https://carlreplan.vercel.app/thank-you"
               />
 
               <div>

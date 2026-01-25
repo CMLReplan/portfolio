@@ -17,7 +17,7 @@ export const PROJECTS = [
     tags: ["Next.js", "React", "Tailwind CSS", "Vercel", "Formspree"],
     imageUrl:
       "/assets/portfolio-preview.png",
-    link: "https://portfolio-ruby-two-icrt7lpso8.vercel.app",
+    link: "https://carlreplan.vercel.app",
     github: "https://github.com/CMLReplan/portfolio",
   },
   {

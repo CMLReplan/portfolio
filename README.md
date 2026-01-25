@@ -2,7 +2,7 @@
 
 A modern, responsive developer portfolio built with Next.js and Tailwind CSS, showcasing my experience, projects, and skills as a Software Developer & ICT Professional.
 
-🔗 Live Site: https://portfolio-ruby-two-icrt7lpso8.vercel.app
+🔗 Live Site: https://carlreplan.vercel.app
 
 ---
 
