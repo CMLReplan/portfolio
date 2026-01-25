@@ -119,3 +119,6 @@ export const CERTIFICATES = [
     date: "August 2018",
   },
 ];
+
+
+export const YEAR = new Date().getFullYear();
