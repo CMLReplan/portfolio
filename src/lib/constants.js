@@ -25,7 +25,7 @@ export const PROJECTS = [
     title: "Little Lemon Restaurant",
     description:
       "A React-based table booking application featuring responsive design, form validation, deployed and hosted on Vercel as part of the Meta Professional Certificate.",
-    tags: ["React", "JavaScript", "HTML5", "CSS", "Bootstrap", "Unit Testing"],
+    tags: ["React", "JavaScript", "HTML5", "CSS", "Bootstrap", "Vercel"],
     imageUrl:
       "/assets/photo2.png",
     link: "https://my-app-phi-eight-47.vercel.app",
