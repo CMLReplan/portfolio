@@ -10,6 +10,17 @@ Enjoy building clean, practical, and user-focused applications, and eager to gro
 
 export const PROJECTS = [
   {
+    id: "0",
+    title: "Personal Portfolio Website",
+    description:
+      "My personal portfolio built with Next.js and Tailwind CSS, featuring responsive design, project showcases, certifications, and a working contact form integrated with Formspree. Deployed on Vercel with CI/CD.",
+    tags: ["Next.js", "React", "Tailwind CSS", "Vercel", "Formspree"],
+    imageUrl:
+      "/assets/portfolio-preview.png",
+    link: "https://portfolio-ruby-two-icrt7lpso8.vercel.app",
+    github: "https://github.com/CMLReplan/portfolio",
+  },
+  {
     id: "1",
     title: "Little Lemon Restaurant",
     description:
