@@ -141,13 +141,3 @@ Carl Mathew L. Replan
 Software Developer & Web Developer
 📍 Laguna, Philippines
 📧 mattreplan@gmail.com
-
-
----
-
-# ⚠️ IMPORTANT: Replace this line
-
-Find:
-
-```md
-git clone https://github.com/CMLReplan/portfolio.git
