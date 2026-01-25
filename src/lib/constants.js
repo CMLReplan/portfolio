@@ -6,7 +6,7 @@ export const LOCATION = "Laguna, Philippines";
 
 export const BIO = `Computer Engineering graduate and Software Developer with hands-on experience in PHP backend development, CMS management, and technical support.
 Worked on real-world systems using Symfony and Joomla, and currently expanding my frontend skill set using React, Next.js, and Tailwind CSS.
-Enjoy building clean, practical, and user-focused applications, and eager to grow as a software developer in a collaborative and fast-paced environment.`;
+Focused on building clean, practical, and user-focused applications, with strong motivation to grow as a software developer in a collaborative and fast-paced environment.`;
 
 export const PROJECTS = [
   {
